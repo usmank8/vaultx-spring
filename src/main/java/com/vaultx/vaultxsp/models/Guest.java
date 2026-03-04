@@ -1,8 +1,5 @@
-package com.vaultx.vaultxsp.guest;
+package com.vaultx.vaultxsp.models;
 
-import com.vaultx.vaultxsp.residence.Residence;
-import com.vaultx.vaultxsp.user.User;
-import com.vaultx.vaultxsp.vehicle.Vehicle;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

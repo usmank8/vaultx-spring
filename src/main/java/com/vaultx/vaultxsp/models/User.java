@@ -1,10 +1,5 @@
-package com.vaultx.vaultxsp.user;
+package com.vaultx.vaultxsp.models;
 
-import com.vaultx.vaultxsp.employee.Employee;
-import com.vaultx.vaultxsp.guest.Guest;
-import com.vaultx.vaultxsp.otp.Otp;
-import com.vaultx.vaultxsp.residence.Residence;
-import com.vaultx.vaultxsp.society.Society;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

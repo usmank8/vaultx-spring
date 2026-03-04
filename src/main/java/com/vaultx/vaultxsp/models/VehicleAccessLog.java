@@ -1,6 +1,5 @@
-package com.vaultx.vaultxsp.rfid;
+package com.vaultx.vaultxsp.models;
 
-import com.vaultx.vaultxsp.vehicle.Vehicle;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,5 @@
-package com.vaultx.vaultxsp.society;
+package com.vaultx.vaultxsp.models;
 
-import com.vaultx.vaultxsp.user.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
