@@ -37,4 +37,18 @@ public class UserDto {
         private String email;
         private String password;
     }
+
+    @Getter
+    @Setter
+    @AllArgsConstructor
+    @NoArgsConstructor
+    public static class LoginResponseDto {
+
+        private String token;
+        private String userId;
+        private String email;
+        private String role;
+        private String firstname;
+        private String lastname;
+    }
 }

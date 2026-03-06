@@ -39,9 +39,32 @@ public class EmployeeDto {
         private String internalRole;
 
         private String department;
-
         private String shift;
+        private LocalDate joiningDate;
+    }
 
+    @Getter
+    @Setter
+    public static class UpdateEmployeeDto {
+        @Size(max = 100)
+        private String firstname;
+
+        @Size(max = 100)
+        private String lastname;
+
+        @Email(message = "Invalid email address")
+        private String email;
+
+        @Pattern(regexp = "^[+\\d\\s\\-()]{7,20}$", message = "Invalid phone number")
+        private String phone;
+
+        private String cnic;
+
+        @Size(max = 100)
+        private String internalRole;
+
+        private String department;
+        private String shift;
         private LocalDate joiningDate;
     }
 
