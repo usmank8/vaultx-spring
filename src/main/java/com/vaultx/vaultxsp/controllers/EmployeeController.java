@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/employees")
 @RequiredArgsConstructor
-@Tag(name = "Employees", description = "Employee management — Admin only for CUD, Admin+Employee for reads")
+@Tag(name = "Employees")
 public class EmployeeController {
 
     private final EmployeeService employeeService;

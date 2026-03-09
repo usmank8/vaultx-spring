@@ -2,6 +2,7 @@ package com.vaultx.vaultxsp.controllers;
 
 import com.vaultx.vaultxsp.models.User;
 import com.vaultx.vaultxsp.services.UserService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -12,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/users")
 @RequiredArgsConstructor
+@Tag(name = "Users")
 public class UsersController {
 
     private final UserService userService;

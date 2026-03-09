@@ -11,7 +11,7 @@ import lombok.Setter;
 public class Society {
     @Id
     @Column(name = "society_id", nullable = false, length = 30)
-    private String society;
+    private String societyId;
 
     @Column(name = "name", nullable = false, length = 100)
     private String name;
@@ -35,6 +35,5 @@ public class Society {
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", referencedColumnName = "userid", insertable = false, updatable = false)
     private User user;
-
 
 }
